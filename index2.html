@@ -1,72 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Escolha seu produto</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
-    <header>
-      <nav class="container">
-        <a id="logo" href="">
-          <img src="./Assets/Logo (1).svg" alt="Logo Treine.me" />
-        </a>
+    <div class="page">
+      <header>
+        <nav class="container">
+          <a id="logo" href="">
+            <img src="./Assets/Logo (1).svg" alt="Logo Treine.me" />
+          </a>
 
-        <ul>
-          <li><a href="index5.html">Admin</a></li>
-          <li><a href="index.html">Volte para página inicial</a></li>
-        </ul>
-      </nav>
-    </header>
-    <h1>Formulário para Cadastro e Edição</h1>
-    <form>
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required /><br /><br />
-      <label for="descricao">Descrição:</label>
-      <textarea id="descricao" name="descricao" required></textarea><br /><br />
-      <input type="submit" value="Salvar" />
-    </form>
-    <div class="sabores">
-      <h1>Tabela com produtos cadastrados.</h1>
-      <table>
-        <tr>
-          <th>Atividades/th></th>
-          <th>Dias da semana</th>
-          <th>Editar/Apagar</th>
-        </tr>
-        <tr>
-          <td>Corrida</td>
-          <td>Segunda-Feira, Quarta-Feira, Sexta-Feira e Sábado</td>
-          <td>
-            <button>Editar</button>
-            <button>Apagar</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Musculação</td>
-          <td>Segunda-Feira à Sábado</td>
-          <td>
-            <button>Editar</button>
-            <button>Apagar</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Alongamento/Mobilidade</td>
-          <td>Domingo a Domingo</td>
-          <td>
-            <button>Editar</button>
-            <button>Apagar</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Natação</td>
-          <td>Segunda a Sexta-Feira</td>
-          <td>
-            <button>Editar</button>
-            <button>Apagar</button>
-          </td>
-        </tr>
-      </table>
+          <ul>
+            <li><a href="index5.html">Admin</a></li>
+            <li><a href="index.html">Volte para página inicial</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="h1">
+        <h1>Formulário para Cadastro e Edição</h1>
+      </div>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required /><br /><br />
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" required></textarea>
+        <input type="submit" value="Salvar" />
+      </form>
+      <div class="sabores">
+        <div class="h1">
+          <h1>Tabela com produtos cadastrados.</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Atividades</th>
+            <th>Dias da semana</th>
+            <th>Editar/Apagar</th>
+          </tr>
+          <tr>
+            <td>Corrida</td>
+            <td>Segunda-Feira, Quarta-Feira, Sexta-Feira e Sábado</td>
+            <td>
+              <button>Editar</button>
+              <button>Apagar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Musculação</td>
+            <td>Segunda-Feira à Sábado</td>
+            <td>
+              <button>Editar</button>
+              <button>Apagar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Alongamento/Mobilidade</td>
+            <td>Domingo a Domingo</td>
+            <td>
+              <button>Editar</button>
+              <button>Apagar</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Natação</td>
+            <td>Segunda a Sexta-Feira</td>
+            <td>
+              <button>Editar</button>
+              <button>Apagar</button>
+            </td>
+          </tr>
+        </table>
+      </div>
       <footer>
         fale concosco no instagram
         <a href="https://instagram.com/treine.me" target="_blank">@treine.me</a>
